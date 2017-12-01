@@ -1,6 +1,6 @@
 var redirect = &#39;int&#39;;
 var exclude_domains = [&#39;mediafire.com&#39;,&#39;l.linkthuthuat.com&#39;,&#39;ch.linkthuthuat.com&#39;,&#39;cdn.linkthuthuat.com&#39;,&#39;linkthuthuat.blogspot.com&#39;, &#39;l.linkthuthuat.com&#39;,&#39;bp.blogspot.com&#39;,&#39;www.linkthuthuat.com&#39;,&#39;www.trongkhanhnguyen.com&#39;,];
-//<![CDATA[
+
 var DOMAssistant = function() {
     var G = function() {};
     var C = /*@cc_on!@*/ false;
@@ -1432,4 +1432,3 @@ function in_object(obj, val) {
     return false;
 }
 DOMAssistant.DOMReady(checkLinks);
-//]]>
